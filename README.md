@@ -8,7 +8,11 @@ kubernetes cluster를 구축 및 운영하면서 생성/사용되는 manifest를
 ### 2. RuntimePlatform : Cluster Component & worker-load / Pod / Node
 ### 3. ServiceMesh : CNI & network & service & Ingress
 ### 4. CI/CD : Registry & Repository
-### 5. Backing Service : MOM(Message Oriented Management) & Persistence & DB / Middleware
+### 5. Backing Service : 
+       - MOM(Message Oriented Management) & 
+       - Persistence 
+       - DB 
+       - Middleware
 ### 6. Telemetry : Monitoring & logging & Tracing
 ---
 ## General kubernetes cluster에 의한 분류
