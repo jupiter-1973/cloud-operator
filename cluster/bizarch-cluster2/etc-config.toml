@@ -3,6 +3,7 @@ imports = []
 oom_score = 0
 plugin_dir = ""
 required_plugins = []
+### location for container data 
 root = "/containerd_data"
 state = "/run/containerd"
 temp = ""
