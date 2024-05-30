@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  labels:
+    app.kubernetes.io/instance: alertmanager
+    app.kubernetes.io/name: alertmanager
+  name: storage-alertmanager-0
+  namespace: monitor
+spec:
+  accessModes:
+  - ReadWriteOnce
+  resources:
+    requests:
+      storage: 50Mi
+  storageClassName: prometheus-storage
+  volumeMode: Filesystem
